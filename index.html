@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
   <header class="header">
     <img class="header__icon" src="images/logo.svg" alt="Ping Logo">
     <div class="header__text">
-      <h1 class="header__title">We are launching soon!</h1>
+      <h1 class="header__title">We are launching <strong class="header__bold">soon!</strong></h1>
       <p class="header__paragraph">Subscribe and get notified</p>
     </div>
   </header>
@@ -20,9 +19,10 @@
   <main class="main">
     <form class="form">
       <input class="form__input" type="email" placeholder="Your email address" required>
-      <input class="form__button" type="button" value="Notify Me">
+      <span class="form__error"></span>
+      <input class="form__input form__input_button" type="button" value="Notify Me">
     </form>
-    <img src="images/illustration-dashboard.png" alt="Dashboard">
+    <img class="main__dashboard" src="images/illustration-dashboard.png" alt="Dashboard">
   </main>
 
   <footer class="footer">
@@ -31,7 +31,7 @@
       <span class="social-icons__image">Twit</span>
       <span class="social-icons__image">Inst</span>
     </div>
-    <p class="footer_text">
+    <p class="footer__text">
       &copy; Copyright Ping. All rights reserved.
     </p>
   </footer>
