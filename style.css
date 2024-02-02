@@ -82,7 +82,7 @@ body {
 
 .form__error {
     color: var(--light-red);
-    /*display: none;*/
+    display: none;
     font-style: italic;
     text-align: center;
 }
@@ -99,6 +99,41 @@ body {
     margin-bottom: 75px;
     margin-top: 237px;
     text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+    margin: auto;
+}
+
+.social-icons__box {
+    align-items: center;
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    transition: .8s;
+    width: 30px;
+}
+
+.social-icons__box:hover {
+    background-color: var(--blue);
+    transition: .8s;
+}
+
+.social-icons__image {
+    color: var(--blue);
+    font-size: 16px;
+    padding: 100%;
+    transition: .8s;
+}
+
+.social-icons__image:hover {
+    color: white;
+    transition: .8s
 }
 
 .footer__text {
