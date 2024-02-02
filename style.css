@@ -82,7 +82,6 @@ body {
 
 .form__error {
     color: var(--light-red);
-    display: none;
     font-style: italic;
     text-align: center;
 }
