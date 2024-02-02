@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/nilton-manjate/ping-comming-soon/)
-- Live Site URL: [GitHub Pages](https://nilton-manjate.github.io/ping-comming-soon/)
+- Solution URL: [GitHub Repo](https://github.com/nilton-manjate/ping-coming-soon/)
+- Live Site URL: [GitHub Pages](https://nilton-manjate.github.io/ping-coming-soon/)
 
 ## My process
 
